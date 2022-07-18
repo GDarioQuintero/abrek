@@ -42,11 +42,11 @@ header .container-header__redes .icons {
   margin-right: 50px;
 }
 
-header .icons span {
-  color: white;
+header .container-header__redes .icons a {
+  text-decoration: unset;
 }
 
-header .icons a {
-  text-decoration: unset;
+header .container-header__redes .icons a span {
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */
