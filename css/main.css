@@ -1,0 +1,52 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  height: 200px;
+  border-bottom: 1px solid #305064;
+}
+
+header .container-header__redes {
+  width: 100%;
+  height: 50px;
+  display: -ms-grid;
+  display: grid;
+  background-color: #305064;
+}
+
+header .container-header__redes .icons {
+  width: 300px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  justify-self: end;
+  margin-right: 50px;
+}
+
+header .icons span {
+  color: white;
+}
+
+header .icons a {
+  text-decoration: unset;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,19 @@
+{
+  "name": "abrek",
+  "version": "1.0.0",
+  "description": "",
+  "main": "\u001b[D\u001b[D\u001b[C",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/GDarioQuintero/abrek.git"
+  },
+  "author": "Germna Quintero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GDarioQuintero/abrek/issues"
+  },
+  "homepage": "https://github.com/GDarioQuintero/abrek#readme"
+}

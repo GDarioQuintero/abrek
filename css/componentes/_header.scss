@@ -1,0 +1,33 @@
+header {
+	display: grid;
+	width: 100%;
+	height: 200px;
+	border-bottom: 1px solid $color-primary;
+}
+
+header .container-header__redes {
+	width: 100%;
+	height: 50px;
+	display: grid;
+	background-color: $color-primary;
+}
+
+header .container-header__redes .icons{
+	width: 300px;
+	height: auto;
+	display: flex;
+	justify-items: flex-end;
+	align-items: center;
+	justify-content: space-between;
+	justify-self: end;
+	margin-right: 50px;
+}	
+
+header .icons span {
+	color: white;
+	
+}
+
+header .icons a { 
+	text-decoration: unset;
+}
