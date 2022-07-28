@@ -9,33 +9,45 @@
   <title>Inicio</title>
 </head>
 <body>
-  <header>
+  <header> 
 		<div class="menu_bar">
 			<a href="#" class="bt-menu"><span class="icon-menu"></span></a>
 		</div>
-		<nav>
-			<ul>
-        <li><a href="#"><span class="icon-home3"></span>Inicio</a></li>
-        <li><a href="#"><span class="icon-mic"></span>Alabanza y Adoraciòn</a></li>
-        <li><a href="#"><span class="icon-rocket"></span>Proyectos Evangelisticos</a></li>
-        <li><a href="#"><span class="icon-library"></span>Antecedentes</a></li>
-        <li><a href="#"><span class="icon-mail4"></span>Mensajes</a></li>
-        <li><a href="#"><span class="icon-clipboard"></span>Programas</a></li>
-        <li><a href="#"><span class="icon-user-plus"></span>Contactos</a></li>
+		<nav class="container-nav">
+			<ul class="container-nav__list">
+        <li class="container-nav__list--item"><a href="#"><span class="icon-home3"></span>Inicio</a></li>
+        <li class="container-nav__list--item"><a href="#"><span class="icon-mic"></span>Alabanza y Adoraciòn</a></li>
+        <li class="container-nav__list--item"><a href="#"><span class="icon-rocket"></span>Proyectos Evangelisticos</a></li>
+        <li class="container-nav__list--item"><a href="#"><span class="icon-library"></span>Antecedentes</a></li>
+        <li class="container-nav__list--item"><a href="#"><span class="icon-mail4"></span>Mensajes</a></li>
+        <li class="container-nav__list--item"><a href="#"><span class="icon-clipboard"></span>Programas</a></li>
+        <li class="container-nav__list--item"><a href="#"><span class="icon-user-plus"></span>Contactos</a></li>
+        <div  class="container-nav__logo-secundario">
+          <img src="./assets/img/logo-secundario-fondo-trasparente.png" alt="Imagen del logo">
+        </div>
+        <div class="icons">
+          <a href=""><span class="icon-facebook2"> </span>
+          <a href=""><span class="icon-whatsapp"> </span></a>
+          <a href=""><span class="icon-twitter"></span></a>
+          <a href=""><span class="icon-instagram"> </span></a>
+          <a href=""><span class="icon-youtube"></span></a>
+        </div>
       </ul>
     </nav>
-    <img class="container-nav__img" src="./assets/img/logo-primario-fondo-trasparente.png" alt="imagen del logo">
+    <div class="container-nav__img">
+      <img  src="./assets/img/logo-primario-fondo-trasparente.png" alt="imagen del logo">
+    </div>   
   </header>   
   <main class="container-main">
     <section class="container-eslogan">
-      <p>“Dios no me ama más ni me ama menos…solo me ama”</p>
+      <p class="container-eslogan__text">“Dios no me ama más ni me ama menos… Solo me ama”</p>
     </section>
     <section class="container-generales">
-      <div class="container-generales__mv">
-        <h2>Mision</h2>
+      <div class="container-generales__mision wrapper">
+        <h1>Mision</h1>
         <p>ABREK es un proyecto nacido del anhelo de servicio a Dios que busca comunicar el mensaje de cristo de una manera fresca, diferente, real y práctica que genere interés en las personas por conocer y adquirir herramientas para su vida fundamentadas en la palabra de Dios y esto los lleve de manera natural a una relación personal con Dios.  </p>
       </div>
-      <div class="container-generales__mv">
+      <div class="container-generales__vision wrapper">
         <h2>Vision</h2>
         <p>ABREK se proyecta en un tiempo de 10 años como un ministerio líder en el desarrollo de proyectos evangelísticos estratégicos que alcancen mas personas para cristo generando interés natural por conocer la palabra de Dios y aplicar herramientas bíblicas en sus vidas. </p>
       </div>
