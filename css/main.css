@@ -221,3 +221,73 @@ header {
   font-size: 17px;
   line-height: 25px;
 }
+
+.container-footer {
+  width: 100%;
+  height: auto;
+}
+
+.container-footer__logo-secundario {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 30px;
+}
+.container-footer__logo-secundario img {
+  width: 120px;
+}
+
+.container-footer__contactos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 30px 0px 0px 0px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.container-footer__contactos .container-email {
+  width: 50%;
+  border-right: 2px solid #032f40;
+}
+.container-footer__contactos .container-tel {
+  width: 50%;
+}
+.container-footer__contactos p {
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  color: #032f40;
+}
+
+.text-redes {
+  width: 100%;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #032f40;
+}
+
+.container-footer__redes {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin: 0 auto;
+  padding: 15px 20px 20px 20px;
+}
+.container-footer__redes a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #032f40;
+}
