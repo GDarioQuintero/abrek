@@ -10,7 +10,8 @@ header {
 
 .menu_bar {
 	display:none;
-	height: 50px;//Da la altura de la clase .menu_bar
+	height: 60px;//Da la altura de la clase .menu_bar
+	border-bottom:1px solid $color-gris;
 }
 
 .container-nav {
@@ -45,8 +46,8 @@ header {
 
 @media screen and (max-width:800px ) {
 	.container-nav {
-		width:85%;
-		height:100%;
+		width:80%;//anchura del menu desplegable
+		height:90%;//altura del menu desplegable
 		left:-100%;
 		margin:0;
 		position: fixed;
@@ -56,12 +57,13 @@ header {
 		display:block;
 		width:100%;
 		background: $color-primary;
+		position: fixed;//inmovilizamos este bloque para que no se oculte al hacer scroll
 	}
 
 	.menu_bar .bt-menu {
 		display:block;
 		height: 100%;
-		padding: 15px 25px;//Unica el icon menu
+		padding: 18px 30px;//Ubica el icon menu
 		background:$color-primary;
 		color:#fff;
 		text-decoration:none;
@@ -70,8 +72,8 @@ header {
 	}
 
 	.menu_bar span {
-		float:left;
-		font-size:20px;
+		float:right;//ubica el icon menu a la derecha
+		font-size:24px;//tamaño del icon menu
 	}
 
 	.container-nav__list--item {
@@ -113,87 +115,14 @@ header {
 	}
 }
 
-.container-nav__img {
+.container-nav__logo {
 	width: 100%;
 	height: auto;
 	display: flex;
+	padding-top: 60px;
 	justify-content: center;
-	padding: 5px 0;
 
 	img {
-		width: 100px;
-	}
-}
-.container-main {
-	width: 100%;
-}
-
-.container-eslogan {
-	width: 100%;
-	height: 550px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding-top: 240px;
-	
-}
-
-.container-eslogan__text {
-	width: 100%;
-	height: 100%;
-	padding: 100px 30px 0px 30px;
-	font-size: 23px;
-	font-weight:bold;
-	line-height: 30px;
-	letter-spacing: 1.5px;
-	text-align: center;
-	color: #fff;
-	background-image: url(../assets/img/img2-small.jpg);
-    background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.wrapper {
-	width: 90%;
-	margin: auto;
-	overflow:hidden;
-	text-align: justify;
-}
-
-.container-generales {
-	width: 100%;
-	display: grid;
-	grid-template-rows: 2;
-}
-
-.container-generales__mision {
-	padding: 50px 0px;
-	color: $color-primary;
-	h1 {
-		font-size: 25px;
-		color: $color-primary;
-	}
-
-	p {
-		padding-top: 20px;
-		font-size: 17px;
-		line-height: 25px;
-	}
-}
-
-.container-generales__vision {
-	width: 100%;
-	padding: 50px 20px 50px 20px;
-	background-color: $color-primary;
-	color: #fff;
-	h1 {
-		font-size: 25px;
-	}
-
-	p {
-		padding-top: 20px;
-		font-size: 17px;
-		line-height: 25px;
+		width: 70px;
 	}
 }
