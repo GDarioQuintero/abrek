@@ -12,13 +12,12 @@ body {
 header {
   width: 100%;
   background-color: #fff;
-  position: fixed;
   border-bottom: 3px solid #032f40;
 }
 
 .menu_bar {
   display: none;
-  height: 80px;
+  height: 50px;
 }
 
 .container-nav {
@@ -68,20 +67,19 @@ header {
 
   .menu_bar .bt-menu {
     display: block;
-    height: 80px;
-    padding: 20px 25px;
+    height: 100%;
+    padding: 15px 25px;
     background: #032f40;
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-    font-size: 25px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
 
   .menu_bar span {
     float: left;
-    font-size: 40px;
+    font-size: 20px;
   }
 
   .container-nav__list--item {
