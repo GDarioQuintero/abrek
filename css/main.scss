@@ -1,32 +1,35 @@
 @import "./componentes/_globales.scss";
 @import "./componentes/_header.scss";
 
-.container-main {
+.container-main-home {
 	width: 100%;
 }
 
 .container-eslogan {
 	width: 100%;
-	height: 240px;
+	height: 400px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-image: url(../assets/img/img1-small.jpg);
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
 }
 
 .container-eslogan__text {
 	width: 100%;
     height: 100%;
-	padding: 70px 30px 0px 30px;
-	font-size: 25px;
+	padding: 110px 30px 0px 30px;
+	font-size: 30px;
 	font-weight:bold;
-	line-height: 35px;
+	line-height: 45px;
 	letter-spacing: 1px;
 	text-align: center;
 	color: #fff;
-	background-image: url(../assets/img/img2-small.jpg);
-    background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-color: rgba(0,0,0,0.5);
+	
 }
 
 .wrapper {
@@ -71,6 +74,10 @@
 		font-size: 17px;
 		line-height: 25px;
 	}
+}
+
+.container-main-alabanza {
+	@extend .container-eslogan;
 }
 
 @import "./componentes/_footer.scss";

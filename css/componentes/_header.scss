@@ -5,13 +5,11 @@ body {
 header {
 	width:100%;
 	background-color: #fff;
-    border-bottom: 3px solid $color-primary;
 }
 
 .menu_bar {
 	display:none;
 	height: 60px;//Da la altura de la clase .menu_bar
-	border-bottom:1px solid $color-gris;
 }
 
 .container-nav {
